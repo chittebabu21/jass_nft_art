@@ -1,0 +1,231 @@
+/* main */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  background-image: url("/images/background-black-night.jpeg");
+  width: auto;
+  animation: gradient 500s linear infinite;
+  text-decoration: none;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+header {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.btn-block {
+  margin-right: 45px;
+  position: fixed;
+  right: 0%;
+  float: right;
+}
+
+.title {
+  text-decoration: none;
+}
+.btn {
+  text-decoration: none;
+}
+
+/* header */
+h1 {
+  position: relative;
+  background: radial-gradient(
+    circle,
+    rgb(255, 255, 255) 0%,
+    rgba(247, 0, 0, 0.959) 30%,
+    rgb(253, 253, 253) 100%
+  );
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 1000;
+  font-size: 2rem;
+  margin: 10px 40px;
+  -webkit-background-clip: text;
+  text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.58);
+  color: transparent;
+  background-size: 200%;
+  letter-spacing: 1rem;
+  animation: gradient 50s linear infinite alternate;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.header {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: aliceblue;
+  letter-spacing: 1rem;
+  text-shadow: 2px 2px 2px rgb(192, 123, 123);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+/* navbar */
+#demo {
+  color: rgba(194, 155, 209, 0.5);
+  text-shadow: 0 0 15px rgba(245, 223, 253, 0.5),
+    0 0 10px rgba(255, 255, 255, 0.63);
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 0.3rem;
+  font-family: monospace;
+}
+
+.top h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 0.8rem;
+  font-size: 15px;
+}
+.button {
+  background: #27b0b9;
+  background: -moz-linear-gradient(
+    -45deg,
+    #27b0b9 0%,
+    #bd33ef 50%,
+    #0d324c 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    #27b0b9 0%,
+    #bd33ef 50%,
+    #0d324c 100%
+  );
+  background: linear-gradient(135deg, #27b0b9 0%, #bd33ef 50%, #0d324c 100%);
+  border: 1px solid aliceblue;
+  padding: 10px;
+  border-radius: 10px;
+  color: aliceblue;
+}
+.button:hover {
+  background: #c8fafd;
+  background: -moz-linear-gradient(
+    -45deg,
+    #8db5b8 0%,
+    #dfa2f5 50%,
+    #33424d 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    #81b6b9 0%,
+    #d8ade7 50%,
+    #3b444b 100%
+  );
+  background: linear-gradient(135deg, #79afb3 0%, #cf92e6 50%, #324553 100%);
+  color: black;
+}
+.button::after {
+  background-color: rgb(255, 0, 0);
+}
+/* introduction */
+html,
+body,
+#onramper-widget {
+  height: 100%;
+  width: 100%;
+}
+.widget-text {
+  margin-bottom: 0px;
+}
+#onramper-widget {
+  width: 400px;
+  height: 640px;
+  margin: 50px 70px;
+  border: 4px inset rgb(70, 104, 109);
+  margin-bottom: 0px;
+}
+/* gallery */
+img {
+  width: 280px;
+  height: 100%;
+  border: 5px ridge silver;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  -webkit-box-shadow: 4px 4px 15px 3px #d4f9ff80;
+  box-shadow: 4px 4px 15px 3px rgba(255, 194, 194, 0.5);
+}
+img:hover {
+  display: block;
+}
+img::after {
+  display: block;
+}
+.gallery {
+  margin: 10px 35px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+#gallery-one {
+  padding-bottom: 60px;
+  border-bottom: 1px dashed rgb(255, 223, 223);
+}
+#gallery-two {
+  padding-bottom: 60px;
+  border-bottom: 1px dashed rgb(255, 223, 223);
+}
+.disclaimer {
+  width: 400px;
+  /* /* display: flex;
+  flex-wrap: wrap;*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: antiquewhite;
+  margin: 0px 70px;
+  text-align: center;
+}
+aside {
+  position: relative;
+}
+.link-top {
+  text-decoration: none;
+  font-family: monospace;
+  letter-spacing: 0.2rem;
+  font-size: 18px;
+  color: #af2a99;
+  margin-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* footer */
+footer {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 40px;
+  padding: 30px;
+}
+
+/* media queries */
+@media screen and (min-width: 750px) {
+  .gallery {
+  }
+}
