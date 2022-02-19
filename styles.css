@@ -226,6 +226,27 @@ footer {
 
 /* media queries */
 @media screen and (min-width: 750px) {
-  .gallery {
+  header,
+  footer {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 749px) {
+  h1 {
+    font-size: 75px;
+    line-height: 0.9;
+    margin-bottom: 20px;
+  }
+  h2 {
+    line-height: 1;
+  }
+  a {
+    padding: 5px;
+  }
+  header {
+    display: inline-block;
+  }
+  .timer {
+    margin-top: 80px;
   }
 }
