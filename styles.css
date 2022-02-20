@@ -82,8 +82,30 @@ h1 {
   justify-content: center;
   text-align: center;
 }
+.comment-line {
+  font-family: fantasy;
+  letter-spacing: 0.2rem;
+  font-size: 15px;
+  margin-top: 0;
+  color: rgb(212, 234, 253);
+  text-shadow: 2px 2px 2px rgb(192, 123, 123);
+}
+#wrap {
+  width: 800px;
+}
 
 /* navbar */
+#discount-countdown {
+  color: rgba(233, 209, 243, 0.5);
+  text-shadow: 0 0 15px rgba(245, 223, 253, 0.5),
+    0 0 10px rgba(255, 255, 255, 0.63);
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 0.3rem;
+  font-family: monospace;
+  margin-bottom: 0;
+}
+
 #demo {
   color: rgba(194, 155, 209, 0.5);
   text-shadow: 0 0 15px rgba(245, 223, 253, 0.5),
@@ -92,6 +114,7 @@ h1 {
   font-size: 30px;
   letter-spacing: 0.3rem;
   font-family: monospace;
+  margin-top: 0;
 }
 
 .top h2 {
@@ -248,5 +271,10 @@ footer {
   }
   .timer {
     margin-top: 80px;
+  }
+  #onramper-widget {
+    width: 350px;
+    display: flex;
+    justify-content: center;
   }
 }
