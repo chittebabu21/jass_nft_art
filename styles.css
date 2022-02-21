@@ -173,10 +173,14 @@ body,
   margin-bottom: 0px;
 }
 #onramper-widget {
-  width: 400px;
+  /* width: 400px;
   height: 640px;
-  margin: 50px 70px;
+  margin: 50px 70px; */
+  width: 440px;
+  height: 595px;
+  margin: 3rem auto;
   border: 4px inset rgb(70, 104, 109);
+  margin-left: 60px;
   margin-bottom: 0px;
 }
 /* gallery */
@@ -270,11 +274,14 @@ footer {
     display: inline-block;
   }
   .timer {
-    margin-top: 80px;
+    margin: auto;
   }
   #onramper-widget {
     width: 350px;
     display: flex;
     justify-content: center;
+  }
+  .btn-block {
+    position: relative;
   }
 }
