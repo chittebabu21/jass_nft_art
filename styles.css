@@ -196,6 +196,8 @@ img {
 }
 img:hover {
   display: block;
+  /* filter: hue-rotate(180deg);
+  -webkit-filter: hue-rotate(180deg); */
 }
 img::after {
   display: block;
@@ -277,11 +279,14 @@ footer {
     margin: auto;
   }
   #onramper-widget {
-    width: 350px;
+    width: 300px;
     display: flex;
     justify-content: center;
   }
   .btn-block {
     position: relative;
+  }
+  .comment-line {
+    font-size: 10px;
   }
 }
